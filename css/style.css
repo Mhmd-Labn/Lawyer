@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav{
+    background-color: #abb6fc8f;
+}
+
+header {
+    background-image: url(../images/im3.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h5 {
+    position: relative;
+}
+
+header h5::after,
+#Area h5::after,
+#about h5::after,
+#form h5::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #3954fd;
+    position: absolute;
+    left: -60px;
+    bottom: 10px;
+}
+
+#about {
+    overflow: hidden;
+}
+
+#about h5 {
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+
+#about h5::after {
+    background-color: white;
+    width: 40px;
+    position: absolute;
+    left: -50px;
+    bottom: 10px;
+
+}
+
+#form h5::after {
+    background-color: white;
+    width: 40px;
+    position: absolute;
+    left: -50px;
+    bottom: 10px;
+}
+
+section i {
+    color: #3954fd;
+    font-size: 50px;
+    font-weight: 200;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#form {
+    background-color: rgb(185, 199, 224);
+}
+
+.content{
+    background-color: #3954fd;
+}
+
+input {
+    height: 50px;
+    padding: 12px 20px;
+    border: none;
+}
+
+.con .row{
+    margin-right: 0px;
+    background-color: #3954fd;
+}
+#form .btn ,.con input {
+    background-color: #051122;
+    height: 50px;
+    color: white;
+}
+
+.content {
+    position: relative;
+    top: 100px;
+
+}
+
+
+.textphoto {
+    display: inline-block;
+}
+
+
+
+
+.test img {
+    border-radius: 50%;
+
+}
+
+.slidersvg {
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+}
+
+.slider {
+    background-image: url(../images/im11.png);
+    height: 60vh;
+    margin-top: 100px;
+}
+
+.slidercontent {
+    padding: 10px 15% 10px 15%;
+}
+
+.sliderimg {
+    margin-left: 40%;
+
+}
+
+
+
+
+
+
+.paragraph {
+    position: relative;
+    top: -60px;
+    background-color: white;
+}
+
+.onebody {
+    font-size: 20px;
+}
+
+.oneA {
+    text-decoration: none;
+}
+
+
+
+
+.footer {
+
+    background-image: url("../images/im14.jpg");
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        background-image: url(../images/im3.jpg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    header .row {
+        margin-top: 50px;
+    }
+
+
+    #about img {
+        width: 100%;
+    }
+
+    #service .row div {
+        width: 100%;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #about img {
+        width: 100%;
+    }
+
+    #about .row {
+        padding-right: 0px;
+    }
+
+    section i {
+        margin-left: 50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #about img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #about .row {
+        padding-right: 0px;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    #about img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #about .row div{
+        padding-right: 0px;
+    }
+
+    #service .row div{
+
+        text-align: center;
+
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #about img {
+        width: 100%;
+    }
+
+    #about .row div {
+        padding-right: 0px;
+    }
+
+    section i {
+        margin-left: 50px;
+    }
+
+
+}
